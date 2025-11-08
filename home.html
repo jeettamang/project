@@ -19,6 +19,59 @@
         justify-content: space-between;
         background-color: #35217e;
       }
+      .btn {
+        padding: 4px;
+        width: 130px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4b33a3;
+        color: white;
+      }
+      .btn:hover {
+        background-color: #35217e;
+        cursor: pointer;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 60px;
+      }
+      .items {
+        flex: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .item h2 {
+        color: #6b59c7;
+        font-size: 35px;
+        font-family: sans-serif;
+      }
+      .item p {
+        margin-top: -20px;
+      }
+      .div-3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 34px;
+      }
+      .cart {
+        width: 300px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+      }
+      .cart:hover {
+        background-color: #35217e;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 300px;
+        text-align: center;
+        transition: 1s;
+      }
     </style>
   </head>
   <body>
@@ -62,6 +115,8 @@
             background: #442f90;
             padding: 10px;
             font-size: 16px;
+            border: none;
+            border-radius: 5px;
           "
         >
           Find the courses
@@ -76,14 +131,7 @@
         />
       </div>
     </div>
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        gap: 10px;
-      "
-    >
+    <div class="div-3">
       <div class="cart">
         <h2>Be Your Own Boss</h2>
         <p>
@@ -91,14 +139,14 @@
           Boss and Shape Your Future!
         </p>
       </div>
-      <div>
+      <div class="cart">
         <h2>Reach Your Career Goals</h2>
         <p>
           Strive for Success: Reach Your Career <br />
           Goals and Unlock Your Potential
         </p>
       </div>
-      <div>
+      <div class="cart">
         <h2>Get Hired</h2>
         <p>
           Validate Your Skills, Open Doors: <br />
@@ -111,7 +159,7 @@
       Seize the future: Secure your career with Sipalaya's cutting-edge
       resources and transformative learning experiences.
     </p>
-    <div>
+    <div class="container">
       <div>
         <img
           width="600px"
@@ -120,10 +168,61 @@
           alt="Image"
         />
       </div>
+      <div class="items">
+        <div class="item">
+          <h2>5K+</h2>
+          <p>Students Graduated</p>
+        </div>
+        <div class="item">
+          <h2>3L-10L</h2>
+          <p>Salary Range</p>
+        </div>
+        <div class="item">
+          <h2>50+</h2>
+          <p>Hiring Partners</p>
+        </div>
+        <div class="item">
+          <h2>30+</h2>
+          <p>Industry Mentors</p>
+        </div>
+        <div class="item">
+          <h2>1:1</h2>
+          <p>Career Support</p>
+        </div>
+        <div class="item">
+          <h2>500+</h2>
+          <p>Interview Coding Questions</p>
+        </div>
+      </div>
     </div>
-    <div>
-      <h2>Learn , Build & Implement</h2>
-      <h2>For Internship Guaranteed Physical / Online Live Classes</h2>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #6b59c7;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 200px;
+        margin-top: -20px;
+      "
+    >
+      <div>
+        <h2 style="color: white; font-size: 25px; font-family: sans-serif">
+          Learn , Build & Implement
+        </h2>
+        <h2 style="color: white; font-size: 25px">
+          For Internship Guaranteed Physical <br />/ Online Live Classes
+        </h2>
+      </div>
+      <div>
+        <button class="btn">Register now</button>
+      </div>
     </div>
+    <h2>
+      Physical | Online Internship Guaranteed IT Courses Training @Rs. 14,999
+      only ( Special Offer !! ) , OFFER Valid for 1 week - Limited Seats !
+    </h2>
   </body>
 </html>

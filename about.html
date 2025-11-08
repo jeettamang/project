@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
       .nav ul {
         display: flex;
         list-style-type: none;
@@ -12,6 +16,55 @@
       }
       nav a {
         text-decoration: none;
+      }
+      .about-1 {
+        text-align: center;
+        padding: 20px 80px;
+        background-color: #fff;
+      }
+      .about-1 h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: blue;
+      }
+      .about-1 p {
+        font-size: 20px;
+        line-height: 25px;
+        color: rgb(72, 72, 172);
+        margin-top: -10px;
+      }
+      .about-2 {
+        background-color: #001223;
+        width: 100%;
+        margin: 0;
+        padding: 60px;
+      }
+      .about-2 h2 {
+        color: #ff00ff;
+      }
+      .about-2 p {
+        color: white;
+        margin-bottom: 40px;
+      }
+      .list {
+        color: white;
+      }
+      .list li {
+        font-size: 18px;
+        padding-right: 10px;
+      }
+      .h5 {
+        font-size: 20px;
+      }
+      .about-3 {
+        flex: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 10px;
+      }
+      .proud {
+        padding-left: 20px;
+        padding-right: 20px;
       }
     </style>
   </head>
@@ -39,6 +92,95 @@
         </ul>
       </nav>
     </header>
-    <h1>This is about</h1>
+    <div class="about-1">
+      <h1>Our Story</h1>
+      <p>
+        Make learning and teaching more effective with active <br />
+        participation and student collaboration
+      </p>
+    </div>
+    <div class="about-2">
+      <h2>Background</h2>
+      <p style="font-size: 18px; padding-left: 20px">
+        Sipalaya empowers professionals and students in the tech industry with
+        tailored, top-notch training programs. Our expert <br />
+        instructors, with extensive industry experience, provide personalized
+        support. Offering interactive, hands-on courses covering the <br />
+        latest technologies, we’ve helped countless individuals elevate their
+        careers. Join us to achieve your goals confidently.
+      </p>
+      <h2>Mission & Vision</h2>
+      <h5 class="h5" style="color: white">Mission:</h5>
+      <ol class="list">
+        <li>
+          Provide high-quality, comprehensive IT training and development
+          programs.
+        </li>
+        <li>
+          Empower professionals and students to advance their careers and
+          achieve their goals.
+        </li>
+      </ol>
+      <h5 class="h5" style="color: white">Vision:</h5>
+      <ol class="list">
+        <li>
+          Become the leading provider of IT training and development programs.
+        </li>
+        <li>
+          Recognized for our commitment to excellence and helping students
+          succeed in the tech industry.
+        </li>
+      </ol>
+      <h5 class="h5" style="color: white">Approach:</h5>
+      <ol class="list">
+        <li>Foster a positive, supportive learning environment.</li>
+        <li>
+          Keep pace with the latest technologies and industry best practices.
+        </li>
+        <li>Equip students with necessary tools and resources for success.</li>
+        <li>
+          Believe in and support every student’s potential for success in the
+          tech industry.
+        </li>
+      </ol>
+      <h1 style="text-align: center; color: #ff00ff; margin-top: 70px">
+        Things that make us proud
+      </h1>
+      <div class="about-3">
+        <div class="proud">
+          <h2>The success of our students</h2>
+          <p>
+            Empowering success fuels our purpose. Proudly <br />
+            guiding countless professionals and students to <br />
+            reach their full potential.
+          </p>
+        </div>
+        <div class="proud">
+          <h2>The quality of our courses</h2>
+          <p>
+            We offer top-notch, personalized courses led by <br />
+            industry experts. Our interactive <br />
+            approach ensures optimal learning and skill development <br />
+            for every student.
+          </p>
+        </div>
+        <div class="proud">
+          <h2>The support of our team</h2>
+          <p>
+            Our dedicated team ensures student success. <br />
+            Proudly supported by talented and passionate <br />
+            individuals.
+          </p>
+        </div>
+        <div class="proud">
+          <h2>Our reputation in the industry</h2>
+          <p>
+            We've earned trust as a leading IT training <br />
+            provider. Proud of our industry reputation and <br />
+            student impact.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -13,6 +13,43 @@
       nav a {
         text-decoration: none;
       }
+      .cont {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #001223;
+        padding: 80px 20px;
+      }
+      .cont-1 {
+        background-color: #0f1a3e;
+        color: white;
+        font-size: 25px;
+        width: 220px;
+        height: 280px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px 20px;
+      }
+      .cont-2 {
+        background-color: #0f1a3e;
+        height: 150px;
+        text-align: center;
+        padding-top: 20px;
+      }
+      .cont-2 h2 {
+        color: #ff00ff;
+        font-size: 30px;
+        text-align: center;
+      }
+      .cont-2 p {
+        color: white;
+        text-align: center;
+        margin-top: -20px;
+        font-size: 25px;
+      }
     </style>
   </head>
   <body>
@@ -39,6 +76,44 @@
         </ul>
       </nav>
     </header>
-    <h1>This is contact page</h1>
+    <h2
+      style="
+        padding: 20px 80px;
+        text-align: center;
+        color: blue;
+        font-size: 40px;
+      "
+    >
+      Contact Us
+    </h2>
+    <div class="cont">
+      <div class="cont-1">Learn</div>
+      <div class="cont-1">Grow</div>
+      <div class="cont-1">practice</div>
+      <div class="cont-1">
+        SUN - FRI: 9AM-6PM <br />
+        SAT: Closed
+      </div>
+    </div>
+    <iframe
+      style="margin-top: -40px; z-index: 1"
+      width="1200px"
+      height="300px"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.4810592043877!2d85.34317037546609!3d27.671522976203146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190536c1caa7%3A0xf92fcf603dac3960!2sSipalaya%20Info%20Tech%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1762603162281!5m2!1sen!2snp"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="cont-2">
+      <h2>Leave Us a Message</h2>
+      <p>
+        Please feel free to leave us a message about any inquiry, our team will
+        get in touch with you as soon as possible.
+      </p>
+    </div>
   </body>
 </html>
