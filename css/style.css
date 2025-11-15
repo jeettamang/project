@@ -1,59 +1,20 @@
-/* #parent-1 {
-  text-align: center;
-  height: 200px;
-  width: 200px;
-  background-color: rgba(200, 250, 130, 0.9);
-  border: 8px solid green;
-  border-radius: 50%;
+.parent {
+  height: 900px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 20px;
+  flex-direction: column;
 }
-#parent-1 h1 {
-  color: red;
-  text-transform: capitalize;
-  text-shadow: 10px 16px 2px red;
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#parent-2 {
-  border: 10px solid green;
-}
-.img img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 600px;
-  height: 400px;
-}
-.img p {
-  position: relative;
-  text-align: justify;
-  width: 600px;
-  height: 400px;
-  font-size: 20px;
-  color: green; */
-/* text-decoration: underline; */
-/* text-decoration: overline; */
-/* text-decoration: 2px green underline; */
-/* text-transform: capitalize; */
-/* text-transform: lowercase; */
-/* text-transform: uppercase; */
-/* line-height: 25px;
-  font-family: "Momo Signature", cursive;
-} */
-
-#model-1 {
-  border: 3px solid black;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  /* display: none; */
-  margin-right: 20px;
-}
-#model-2 {
-  border: 3px solid black;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  display: hidden;
-}
-
-/* margin collapse: If there are two boxes with equal width and height but different margin values then the higher 
-margin value will apply. If try to increse the margin value to the box having lesser margin then it 
-it never show any change if it is less than other one. So always higher value of margin will display */
