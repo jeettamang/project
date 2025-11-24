@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
       * {
         margin: 0;
         padding: 0;
@@ -35,10 +36,25 @@
         width: 200px;
         height: 400px;
       }
-    </style>
+      .container {
+        border: 2px solid black;
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(3, 15%);
+        grid-template-rows: 100px 100px 100px;
+        grid-auto-rows: 50%;
+      }
+      .items {
+        border: 2px solid red;
+        /* grid-column-start: 1;
+  grid-column-end: 3; */
+        /* grid-row-start: 1;
+  grid-row-end: 3; */
+      }
+    </style> -->
   </head>
   <body>
-    <div class="parent">
+    <!-- <div class="parent">
       <div class="position-1">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
         quasi eos, numquam asperiores porro recusandae earum odit libero enim ad
@@ -85,6 +101,20 @@
         unde delectus repellendus eum, commodi vel doloribus nam!
       </div>
       <div class="position-2">Position2</div>
+    </div> -->
+    <!-- <div class="container">
+      <div class="items">Item-1</div>
+      <div class="items">Item-2</div>
+      <div class="items">Item-3</div>
+      <div class="items">Item-4</div>
+      <div class="items">Item-5</div>
+      <div class="items">Item-3</div>
+      <div class="items">Item-4</div>
+      <div class="items">Item-5</div>
+    </div> -->
+
+    <div class="parent">
+      <div class="child"></div>
     </div>
   </body>
 </html>

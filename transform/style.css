@@ -1,0 +1,31 @@
+.parent {
+  border: 2px solid red;
+  height: 700px;
+}
+.child {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+.child:hover {
+  /* transform: translatex(100px); */
+  transform: translateY(150px);
+  /* transform: perspective(100px) translatez(-200px); */
+  /* transform: rotateX(90deg); */
+  /* transform: rotateY(200deg); */
+  /* transform: rotatez(100deg); */
+  /* transform: skewX(20deg); */
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  /* transform: scale(2, 2); */
+  transition: all;
+
+  background-color: aqua;
+  transition-duration: 4s;
+  /* transition-timing-function: ease; */
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-timing-function: ease-out; */
+  transition-timing-function: linear;
+}

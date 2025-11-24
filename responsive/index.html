@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .responsive {
+        background-color: green;
+        height: 200px;
+      }
+      @media (max-width: 400px) and (orientation: portrait) {
+        .responsive {
+          background-color: fuchsia;
+          color: black;
+        }
+      }
+      @media (min-width: 400px) and (max-width: 600px) {
+        .responsive {
+          background-color: burlywood;
+          color: black;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 900px) {
+        .responsive {
+          background-color: yellow;
+          color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="responsive">Responsive</div>
+  </body>
+</html>
